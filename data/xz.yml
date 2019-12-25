@@ -1,0 +1,11 @@
+sc_data:
+  sc_test_01:
+    expect:
+      value: 你好
+    value: hello
+  sc_test_02:
+    expect:
+    - 1
+    - 2
+    - 3
+    value: 456

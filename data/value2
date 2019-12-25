@@ -1,0 +1,7 @@
+info: &data
+  name: "xz"
+  age: "18"
+
+address:
+  <<: *data
+  detail: "TBD 2-10"

@@ -1,0 +1,55 @@
+#name: "lily"  # yaml编写时  冒号后 必须跟  空格
+#Name: "kik"
+
+# ------- 对象 -------
+#value1: {"name":"肖战"}  # 支持python数据类型
+#value2: 肖战   #  支持自动转换数据类型
+
+#value3:  # 多层级关系
+#  name1: "耶啵"
+#  name2: "小樱"
+
+# -------- 数组 -------
+#value4:  # yaml 文件数组格式
+#  - 1   #  - 后面必须跟 空格
+#  - 2
+
+#value5: [1,2,3]   # python数组类型
+
+#value6:  # 字典 套 列表 套 字典
+#  - name: "xz"
+#  - name: "xz"
+#  - age: 18
+
+# -------- 纯量 -------
+# 布尔
+#value7: true  # yaml文件支持
+#value8: false  # yaml文件支持
+
+#value9: True   # python数据类型
+#value10: False  # python数据类型
+
+# 整数  浮点数
+#value11: 156
+#value12: 3.14159
+
+# 空
+#value13: ~
+#value16:  # 没有任何内容 支持
+#value17: null  # 支持
+#value18: Null  # 支持
+
+
+#value14: None  # python数据不支持
+#value15: none  # python数据不支持
+#value19: ""  # python 数据不支持
+
+
+# 日期
+#value20: 2020-11-11 12:12:12  # 返回值 datetime.datetime
+#value21: 2020-11-11  # 返回值 datetime.date
+#value22: 12:12:12  # 返回整数
+
+#value23: 2020-11-11 12:02:05  # 如果日期 时间是个位数, 一定要补0
+#value24: 2020-1-11 12:02:52
+value25: 2020-11-11 12:02:52
